@@ -1,0 +1,14 @@
+@media (max-width: 410px) {
+  .image-gallery-slide img {
+    height: 300px;
+    width: 100%;
+    object-fit: accordingly;
+  }
+}
+@media (min-width: 410px) {
+  .image-gallery-slide img {
+    height: 500px;
+    width: 100%;
+    object-fit: accordingly;
+  }
+}
