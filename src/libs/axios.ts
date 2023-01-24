@@ -19,7 +19,7 @@ function authRequestInterceptor(config: AxiosRequestConfig) {
 export const axios = Axios.create({
   // baseURL: `http://localhost:${BACKEND_PORT}`,
   // baseURL: "https://airbrb-backend.onrender.com",
-  baseURL: "airbrb-backend.fly.dev",
+  baseURL: "https://airbrb-backend.fly.dev",
 });
 
 axios.interceptors.request.use(authRequestInterceptor);
