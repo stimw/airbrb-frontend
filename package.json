@@ -2,7 +2,6 @@
   "name": "fontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stimw.github.io/airbrb-frontend",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
     "@chakra-ui/react": "^2.3.7",
@@ -49,9 +48,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
-    "cypress": "cypress open",
-    "predeploy": "yarn run build",
-	  "deploy": "gh-pages -d build"
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
